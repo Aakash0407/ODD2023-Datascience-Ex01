@@ -147,5 +147,36 @@ df['original_network']=df['original_network'].fillna(df['aired_on'].mode()[0])
 df.head()
 ````
 ![12](https://github.com/Aakash0407/ODD2023-Datascience-Ex01/assets/118799103/6a6b6c93-f4a9-4839-89a2-8c4e04f03772)
+### MEAN
+````
+df['rating']=df['rating'].fillna(df['rating'].mean())
+df['current_overall_rank']=df['current_overall_rank'].fillna(df['current_overall_rank'].mean())
+df.head()
+````
+![13](https://github.com/Aakash0407/ODD2023-Datascience-Ex01/assets/118799103/d45490eb-f685-4b1d-8fbc-f2d9d32188ae)
+### MEDIAN
+````
+df['watchers']=df['watchers'].fillna(df['watchers'].median())
+df.head()
+````
+![14](https://github.com/Aakash0407/ODD2023-Datascience-Ex01/assets/118799103/ec53fe34-539b-4abf-8a49-3a0770f1b8b6)
+### NON NULL AFTER
+````
+df.info()
+````
+![15](https://github.com/Aakash0407/ODD2023-Datascience-Ex01/assets/118799103/f38ef5d5-af1b-4c19-bd5d-14ee0427ac08)
+````
+df.isnull()
+````
+![16](https://github.com/Aakash0407/ODD2023-Datascience-Ex01/assets/118799103/4634d6c5-51ab-4972-a742-4b158c40d670)
+````
+df.isnull().sum()
+````
+![17](https://github.com/Aakash0407/ODD2023-Datascience-Ex01/assets/118799103/4611191e-159e-4a17-9170-8bdc523d8c93)
+
+# RESULT
+Thus,the given data is read,cleansed and the cleaned data is saved into the file.
+
+
 
 
