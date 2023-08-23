@@ -81,7 +81,7 @@ df.head(10)
 ![1](https://github.com/Aakash0407/ODD2023-Datascience-Ex01/assets/118799103/e56346b9-5358-4755-9fa9-0731384d7875)
 ### NON NULL BEFORE
 ````
-df.info
+df.info()
 ````
 ![2](https://github.com/Aakash0407/ODD2023-Datascience-Ex01/assets/118799103/bcdd59da-892b-4b61-aea5-90c31b7fdff5)
 ### MODE
